@@ -1,5 +1,5 @@
 export default function getBaseUrl() {
-  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:35001/' : '/';
+  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:35001/' : ' https://pacific-shore-47054.herokuapp.com/';
 }
 
 function getQueryStringParameterByName(name, url) {
